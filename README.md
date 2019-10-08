@@ -164,9 +164,33 @@ This simply downloads the newest version from your online repository, which you 
 
 >**_NOTE_**: In this Workflow we didn't talk about branches. If you already familar about branches take care about in which branch you are working
 
+## <a name="mainheader2"></a>Summary Workflow
 
+This Summary is the same as above but shorten to the commands that provides the wanted behaviour. The first step is skipped, because it is assumed that you have done this already and use the summary as a reference.
 
+* Clone the repository
+```shell
+git clone <your-git-repo-url>
+```
+* Add new Files
+```shell
+git add --all
+```
+* Commit Files
+```shell
+git commit -m "good Title" -m "detailed informations"
+```
+* Edit Files
+```shell
+git add -p
 
-
-
-
+# OPTIONS WE USE: y,n and q to add/skip patch or quit process
+```
+* Push Files
+```shell
+git push
+```
+* Pull Files
+```shell
+git pull
+```
