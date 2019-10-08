@@ -10,7 +10,8 @@ This is a brief description how I use (or should use) Git with Windows. It inclu
     * [Commit your Files](#header4)
     * [Editing Files](#header5)
     * [Push Files](#header6)
-
+    * [Pull Files](#header6)
+* [Summary Workflow](#mainheader2)
 
 ## <a name="mainheader1"></a>Complete Workflow
 
